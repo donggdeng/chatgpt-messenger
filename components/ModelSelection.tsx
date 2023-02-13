@@ -15,11 +15,13 @@ function ModelSelection() {
       <Select
         className="mt-2"
         options={models?.modelOptions}
+        defaultValue={model}
+        placeholder={model}
         isSearchable
         isLoading={isLoading}
         menuPosition="fixed"
         classNames={{
-          control: (state) => "bg-[#434654] border-[#434654]",
+          control: (state) => "bg-[#434654] border-[#434654]"
         }}
         onChange={(e) => setModel(e.value)}
       />
