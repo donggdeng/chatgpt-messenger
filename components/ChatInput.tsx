@@ -74,9 +74,6 @@ function ChatInput({ chatId }: Props) {
     });
   };
 
-  console.log("prompt >>", prompt);
-  console.log("session >>", session);
-
   return (
     <div className="bg-gray-700/50 text-gray-400 rounded-lg text-sm focus:outline-none">
       <form onSubmit={sendMessage} className="p-5 sapce-x-5 flex">
