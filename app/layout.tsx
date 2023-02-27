@@ -31,7 +31,7 @@ export default async function RootLayout({
 
             <ClientProvider />
 
-            <div className="bg-[#343541] ">{children}</div>
+            <div className="bg-[#343541] grow">{children}</div>
           </div>
           )}
         </SessionProvider>
